@@ -2,6 +2,6 @@
 # Caddy config file
 
 :80 {
-    root + /usr/share/caddy
+    root * /usr/share/caddy
     file_server
 }
